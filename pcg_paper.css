@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 3
+   Case Problem 4
+
+   Park City Gazette Style Sheet
+   Author: Bryan Vargas
+   Date:   10/29/18
+
+   Filename:         pcg_paper.css
+   Supporting Files: 
+
+*/
+html {
+    background-color: rgb(228, 187, 76);
+}
+
+body {
+    display: block;
+    background-color: rgb(228, 144, 76);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header>img {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 3px solid rgb(37, 37, 37);
+    border-bottom: 6px solid rgb(37, 37, 37);
+    border-left: 3px solid rgb(37, 37, 37);
+    border-right: 6px solid rgb(37, 37, 37);
+
+}
