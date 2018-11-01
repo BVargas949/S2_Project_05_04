@@ -15,6 +15,7 @@
 */
 html {
     background-color: rgb(228, 187, 76);
+    width: 100%;
 }
 
 body {
@@ -23,6 +24,8 @@ body {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 header>img {
@@ -35,4 +38,43 @@ header>img {
     border-left: 3px solid rgb(37, 37, 37);
     border-right: 6px solid rgb(37, 37, 37);
 
+}
+
+nav#links1 {
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    background-color: rgb(241, 241, 142);
+    padding: 5px;
+
+}
+
+nav#links1 ul {
+    display: table;
+
+
+}
+
+nav#links1 ul li {
+    box-sizing: border-box;
+    display: table-cell;
+    width: 20%;
+    padding: .2em .2em .2em .2em;
+    float: left;
+}
+
+nav#links1 ul li a {
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+
+
+
+}
+
+nav#links2 {
+    /* clear: left; */
+    float: left;
 }
